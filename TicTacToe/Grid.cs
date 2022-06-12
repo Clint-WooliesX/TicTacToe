@@ -8,7 +8,6 @@ namespace TicTacToe
         public bool XWins = false;
         public bool OWins = false;
         public bool _gameOver = false;
-        //public bool GameOver = _gameOver;
         private int _width = 3;
         private int _height = 3;
         private string[,] _symbols;

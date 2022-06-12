@@ -28,7 +28,7 @@ do
     }
     if (game.XWins) Console.WriteLine("Player 1 X's Wins!", Color.ForestGreen);
     if (game.OWins) Console.WriteLine("Player 2 O's Wins!", Color.ForestGreen);
-    if (!game.XWins && !game.OWins) Console.WriteLine("It is as draw!", Color.HotPink);
+    if (!game.XWins && !game.OWins) Console.WriteLine("It is as draw!", Color.OrangeRed);
     Console.WriteLine("Game over");
     Console.Write("Play again Y/N > ");
     cki = Console.ReadKey();
