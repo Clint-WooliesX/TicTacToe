@@ -34,6 +34,8 @@ do
     cki = Console.ReadKey();
 } while (cki.Key != ConsoleKey.N);
 
+Console.WriteLine("\nThanks for playing");
+
 
 
   
